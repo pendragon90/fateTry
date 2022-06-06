@@ -1,0 +1,46 @@
+* {
+    font-family: sans-serif;
+}
+body {
+    background: url('jo.jpg') no-repeat fixed;
+    background-size: cover;
+    background-position-x: center;
+    overflow: hidden;
+    height: auto;
+}
+.head {
+    display: inline;
+}
+.head img {
+    width: 200px;
+    height: 100px;
+}
+button {
+    color: white;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 50px;
+    margin: 5px;
+    border: 1px solid white;
+}
+.cont h1 {
+    font-size: 60px;
+}
+.cont {
+    position: relative;
+    top: 110px;
+    left: 30px;
+    color: white;
+    display: block;
+    margin-top: 10px;
+}
+small {
+    position: relative;
+    top: 40px;
+    font-size: 20px;
+}
+
+.cont button {
+    position: relative;
+    bottom: 40px;
+}
